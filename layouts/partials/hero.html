@@ -1,0 +1,30 @@
+<section class="hero vh-100 d-flex align-items-center position-relative" 
+         style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('{{ .Site.Params.hero.background_image }}') center/cover no-repeat">
+    <div class="container text-center text-white">
+        <div class="hero-content mx-auto" style="max-width: 800px;">
+            <h1 class="display-2 fw-bold mb-4 animate__animated animate__fadeInDown">
+                {{ .Site.Params.hero.heading }}
+            </h1>
+            <p class="lead fs-3 mb-5 fw-light animate__animated animate__fadeIn animate__delay-1s">
+                {{ .Site.Params.hero.subtext }}
+            </p>
+            <div class="d-flex flex-column flex-md-row gap-4 justify-content-center animate__animated animate__fadeInUp animate__delay-2s">
+                <a href="{{ .Site.Params.hero.button1_link }}" 
+                   class="btn btn-primary btn-lg px-5 py-3 fw-bold border-2 border-dark">
+                   {{ .Site.Params.hero.button1 }}
+                </a>
+                <a href="{{ .Site.Params.hero.button2_link }}" 
+                   class="btn btn-outline-light btn-lg px-5 py-3 fw-bold border-2 border-dark">
+                   {{ .Site.Params.hero.button2 }}
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scroll indicator -->
+    <div class="position-absolute bottom-0 start-50 translate-middle-x mb-5">
+        <a href="#main-content" class="text-white text-decoration-none scroll-indicator">
+            <i class="bi bi-chevron-down h1 animate__animated animate__bounce animate__infinite"></i>
+        </a>
+    </div>
+</section>

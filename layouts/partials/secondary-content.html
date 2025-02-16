@@ -1,0 +1,20 @@
+<section class="secondary-content py-5 bg-light text-dark position-relative overflow-hidden">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-xl-8 text-center">
+                <h2 class="display-4 fw-bold mb-4 animate__animated animate__fadeInDown">
+                    {{ .Site.Params.secondary_content.heading }}
+                </h2>
+                <div class="content-wrapper position-relative">
+                    <div class="text-mask"></div>
+                    <p class="lead fs-3 fw-light mb-0 animate__animated animate__fadeIn animate__delay-1s">
+                        {{ .Site.Params.secondary_content.content }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Decorative elements -->
+    <div class="position-absolute top-0 start-0 w-100 h-100 pattern-overlay"></div>
+</section>

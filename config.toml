@@ -1,0 +1,62 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Real Estate Consulting & Mentoring"
+  
+
+[params]
+
+description = "Expert real estate consulting and mentoring services to help you succeed in the property market"
+author = "Your Company Name"
+keywords = "real estate, consulting, mentoring, property, investment"
+image = "/images/og-image.jpg"
+twitter = "@yourhandle"
+
+primary_color = "#456523"
+secondary_color = "#5a7d2f"
+accent_color = "#f8f9fa"
+
+[params.hero]
+heading = "Transform Your Real Estate Career"
+subtext = "Expert Mentoring & Consulting Services"
+button1 = "Book Consultation"
+button1_link = "#contact"
+button2 = "View Programs"
+button2_link = "#programs"
+background_image = "https://picsum.photos/1920/1080"
+
+[params.main_content]
+heading = "Accelerate Your Real Estate Success"
+content = "Our proven strategies and personalized mentoring help real estate professionals achieve their goals faster and more efficiently."
+
+
+[params.why_us]
+heading = "Why Choose Us"
+points = [
+    {icon = "bi-people", title = "Experienced Mentors", text = "20+ years industry experience"},
+    {icon = "bi-graph-up", title = "Proven Results", text = "95% success rate..."},
+    {icon = "bi-person-badge", title = "Personalized Coaching", text = "Tailored to your needs"}
+]
+
+[params.secondary_content]
+heading = "Our Proven Methodology"
+content = "We combine cutting-edge market analysis with time-tested strategies to help you navigate the complex world of real estate. Our approach is tailored to your unique goals, ensuring maximum results with minimum risk."
+
+[params.footer]
+text = "All rights reserved ."
+email = "contact@example.com"
+phone = "(555) 123-4567"
+social_links = [
+    {icon = "bi-chat-left", url = "#"}, #sms
+    {icon = "bi-facebook", url = "#"},  #facebook
+    {icon = "bi-envelope-at", url = "#"}  #email
+
+
+]
+
+[params.social]
+  facebook = "https://facebook.com/yourpage"
+  twitter = "https://twitter.com/yourhandle"
+  linkedin = "https://linkedin.com/company/yourcompany"
+
+
+  

@@ -1,0 +1,24 @@
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <h3 class="h5 mb-3">Contact Information</h3>
+                <p>  <a class="text-decoration-none text-white" href="mailto:{{ .Site.Params.footer.email }}">{{ .Site.Params.footer.email }}</a> |
+                    <a class="text-decoration-none text-white" href="tel:{{ .Site.Params.footer.phone }}">{{ .Site.Params.footer.phone }}</a></p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <div class="social-links">
+                    {{ range .Site.Params.footer.social_links }}
+                    <a href="{{ .url }}" class="text-white me-3 text-decoration-none" target="_blank">
+                        <i class="bi {{ .icon }} h4"></i>
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        <hr class="text-white my-4">
+        <div class="text-center text-white">
+            &copy; {{ now.Format "2006" }} {{ .Site.Title }}  .  {{ .Site.Params.footer.text }}
+        </div>
+    </div>
+</footer>
