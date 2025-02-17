@@ -18,10 +18,10 @@ accent_color = "#f8f9fa"
 [params.hero]
 heading = "Take our conulting program to elaborate your land investments"
 subtext = "Expert Mentoring & Consulting Services"
-button1 = "Book Consultation by email"
+button1 = "Book Consultation via email"
 button1_link = "#page-footer"
 button2 = "View Programs"
-button2_link = "#page-footer"
+button2_link = "#main-content"
 #background_image = "https://picsum.photos/1920/1080"
 background_image = "/images/ardiss-hutaff-YnRfDq_JPvU-unsplash.jpg"
 
