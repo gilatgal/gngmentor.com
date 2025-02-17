@@ -1,10 +1,16 @@
+<footer id="page-footer">
 <footer class="bg-dark text-white py-5">
     <div class="container">
         <div class="row">
             <div class="col-md-6 mb-4 mb-md-0">
                 <h3 class="h5 mb-3">Contact Information</h3>
-                <p>  <a class="text-decoration-none text-white" href="mailto:{{ .Site.Params.footer.email }}">{{ .Site.Params.footer.email }}</a> |
+				<!--
+                <p> <a class="text-decoration-none text-white" href="mailto:{{ .Site.Params.footer.email }}">{{ .Site.Params.footer.email }}</a> |
                     <a class="text-decoration-none text-white" href="tel:{{ .Site.Params.footer.phone }}">{{ .Site.Params.footer.phone }}</a></p>
+                 -->
+                <p> <a href="mailto:{{ .Site.Params.footer.email }}" style="text-decoration: none; color: yellow; font-size: 1.2em; font-weight: bolder;">{{ .Site.Params.footer.email }}</a> |
+                    <a href="tel:{{ .Site.Params.footer.phone }}" style="text-decoration: none; color: white;">{{ .Site.Params.footer.phone }}</a></p>
+
             </div>
             <div class="col-md-6 text-md-end">
                 <div class="social-links">
@@ -21,4 +27,5 @@
             &copy; {{ now.Format "2006" }} {{ .Site.Title }}  .  {{ .Site.Params.footer.text }}
         </div>
     </div>
+</footer>
 </footer>

@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://gngmentor.com"
 languageCode = "en-us"
 title = "Real Estate Consulting & Mentoring"
   
@@ -16,13 +16,14 @@ secondary_color = "#5a7d2f"
 accent_color = "#f8f9fa"
 
 [params.hero]
-heading = "Transform Your Real Estate Career"
+heading = "Take our conulting program to elaborate your land investments"
 subtext = "Expert Mentoring & Consulting Services"
-button1 = "Book Consultation"
-button1_link = "#contact"
+button1 = "Book Consultation by email"
+button1_link = "#page-footer"
 button2 = "View Programs"
-button2_link = "#programs"
-background_image = "https://picsum.photos/1920/1080"
+button2_link = "#page-footer"
+#background_image = "https://picsum.photos/1920/1080"
+background_image = "/images/ardiss-hutaff-YnRfDq_JPvU-unsplash.jpg"
 
 [params.main_content]
 heading = "Accelerate Your Real Estate Success"
@@ -32,7 +33,7 @@ content = "Our proven strategies and personalized mentoring help real estate pro
 [params.why_us]
 heading = "Why Choose Us"
 points = [
-    {icon = "bi-people", title = "Experienced Mentors", text = "20+ years industry experience"},
+    {icon = "bi-people", title = "Experienced Mentors", text = "10+ years industry experience"},
     {icon = "bi-graph-up", title = "Proven Results", text = "95% success rate..."},
     {icon = "bi-person-badge", title = "Personalized Coaching", text = "Tailored to your needs"}
 ]
@@ -43,14 +44,12 @@ content = "We combine cutting-edge market analysis with time-tested strategies t
 
 [params.footer]
 text = "All rights reserved ."
-email = "contact@example.com"
-phone = "(555) 123-4567"
+email = "info@gngmentor.com"
+phone = "+1972 54 667 5544"
 social_links = [
     {icon = "bi-chat-left", url = "#"}, #sms
     {icon = "bi-facebook", url = "#"},  #facebook
-    {icon = "bi-envelope-at", url = "#"}  #email
-
-
+    {icon = "bi-envelope-at", url = "mailto:info@gngmentor.com"}  #email
 ]
 
 [params.social]
